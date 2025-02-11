@@ -51,7 +51,8 @@ body {
 }
 
 #message-container {
-    display: none;
+    display: none;  /* Keep the message container hidden initially */
+    position: relative;
     text-align: center;
     padding: 20px;
 }
@@ -69,16 +70,6 @@ body {
 }
 
 /* Image styling */
-#message-container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    padding: 20px;
-}
-
 .background-image {
     position: absolute;
     width: 40%; /* Default size */
@@ -118,4 +109,3 @@ body {
     right: 10%;
     transform: rotate(-10deg); /* Tilt to the left */
 }
-
