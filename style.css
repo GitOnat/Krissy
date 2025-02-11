@@ -123,10 +123,11 @@ body {
 /* Text styling */
 #main-message {
     font-size: 32px;
-    color: #ff4081;
+    color: #ff006a;
     margin-bottom: 20px;
     opacity: 0;
     transition: opacity 1s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6), -2px -2px 4px rgba(0, 0, 0, 0.6);
 }
 
 #sweet-message, #final-message {
