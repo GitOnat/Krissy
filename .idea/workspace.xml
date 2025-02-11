@@ -5,17 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6235a87b-31e1-411d-b05a-e3efe5c3338a" name="Changes" comment="krissy images">
-      <change afterPath="$PROJECT_DIR$/fest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorthvid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spejl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tivoli.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/heart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sorthvid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/spejl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tivoli.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +53,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
@@ -76,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1739231671618</updated>
       <workItem from="1739231672670" duration="1152000" />
-      <workItem from="1739261671126" duration="2026000" />
+      <workItem from="1739261671126" duration="2276000" />
     </task>
     <task id="LOCAL-00001" summary="krissy">
       <option name="closed" value="true" />
@@ -94,7 +84,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739232157171</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="krissy images">
+      <option name="closed" value="true" />
+      <created>1739308483531</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739308483531</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

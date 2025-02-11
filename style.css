@@ -63,7 +63,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('fest.png'), url('sorthvid.png'), url('spejl.png'), url('tivoli.png');
+    background-image: url('Krissy/fest.png'), url('Krissy/sorthvid.png'), url('Krissy/spejl.png'), url('Krissy/tivoli.png');
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: top left, top right, bottom left, bottom right;
