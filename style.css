@@ -17,7 +17,7 @@ body {
 }
 
 #heart-button {
-    background-image: url('images/heart.png');
+    background-image: url('heart.png');
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -63,7 +63,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('images/fest.png'), url('images/sorthvid.png'), url('images/spejl.png'), url('images/tivoli.png');
+    background-image: url('fest.png'), url('sorthvid.png'), url('spejl.png'), url('tivoli.png');
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: top left, top right, bottom left, bottom right;
