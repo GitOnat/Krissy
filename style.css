@@ -41,31 +41,6 @@ body {
     #main-message {
         font-size: 24px; /* Smaller text for mobile */
     }
-
-    /* Adjust the images for mobile */
-    .background-image {
-        width: 50%; /* Make images smaller on mobile */
-        height: auto;
-    }
-
-    #image-1, #image-3 { /* Adjust left and bottom images */
-        top: 5%;
-        left: 5%;
-        transform: rotate(-5deg); /* Slight tilt */
-    }
-
-    #image-2 { /* Adjust top-right image */
-        top: 5%;
-        right: 5%;
-        transform: rotate(5deg); /* Slight tilt */
-        width: 60%; /* Make this image slightly bigger on mobile */
-    }
-
-    #image-4 { /* Adjust bottom-right image */
-        bottom: 5%;
-        right: 5%;
-        transform: rotate(-5deg); /* Slight tilt */
-    }
 }
 
 #heart-text {
@@ -76,25 +51,28 @@ body {
 }
 
 #message-container {
-    display: none;  /* Keep the message container hidden initially */
-    position: relative;
+    display: none;
     text-align: center;
     padding: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
-#main-message {
-    font-size: 32px;
-    color: #ff4081;
-    margin-bottom: 20px;
+/* Fade-in animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
-#sweet-message, #final-message {
-    font-size: 18px;
-    color: #333;
-    line-height: 1.6;
-}
-
-/* Image styling */
+/* Make images fade in after the heart is clicked */
 .background-image {
     position: absolute;
     width: 40%; /* Default size for larger screens */
@@ -102,7 +80,9 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     z-index: -1;
-    opacity: 0.6;
+    opacity: 0;  /* Start with the images hidden */
+    animation: fadeIn 1s forwards;  /* Apply the fade-in animation */
+    animation-delay: 0.5s;  /* Delay the animation for a smoother effect */
 }
 
 /* Individual image styles */
@@ -133,4 +113,16 @@ body {
     bottom: 10%;
     right: 10%;
     transform: rotate(-10deg); /* Tilt to the left */
+}
+
+#main-message {
+    font-size: 32px;
+    color: #ff4081;
+    margin-bottom: 20px;
+}
+
+#sweet-message, #final-message {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
 }
