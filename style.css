@@ -122,12 +122,14 @@ body {
 
 /* Text styling */
 #main-message {
-    font-size: 32px;
-    color: #ff006a;
+    font-size: 20px;  /* Større fontstørrelse */
+    font-family: 'Georgia', serif;  /* En mere romantisk font */
+    color: #ff4081;  /* Lys pink farve for kærlighed */
+    font-weight: bold;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6), 0 0 25px rgba(255, 0, 255, 0.5); /* Stærk skygge for dybde og fremtræden */
+    letter-spacing: 2px;  /* Øget afstand mellem bogstaver for mere elegance */
+    text-transform: uppercase;  /* Gør det lidt mere iøjnefaldende */
     margin-bottom: 20px;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6), -2px -2px 4px rgba(0, 0, 0, 0.6);
 }
 
 #sweet-message, #final-message {
