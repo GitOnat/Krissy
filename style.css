@@ -107,7 +107,11 @@ body {
     bottom: 75%;
     right: 10%;
     transform: rotate(-10deg);
+    width: 100%; /* Reduce width */
+    height: 100%; /* Maintain aspect ratio */
+    background-size: contain; /* Ensure the whole image fits */
 }
+
 
 /* Ensure images fade in after clicking */
 .show-images .background-image {
