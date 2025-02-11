@@ -21,7 +21,7 @@ body {
     background-size: contain; /* Ensures the whole image is visible */
     background-position: center center; /* Centers the image both horizontally and vertically */
     width: 200px;
-    height: 180px;
+    height: 200px;
     border: none;
     cursor: pointer;
     display: flex;
@@ -77,7 +77,7 @@ body {
     right: 0;
     bottom: 0;
     background-image: url('https://gitonat.github.io/Krissy/fest.png'), url('https://gitonat.github.io/Krissy/sorthvid.png'), url('https://gitonat.github.io/Krissy/spejl.png'), url('https://gitonat.github.io/Krissy/tivoli.png');
-    background-size: 30%;
+    background-size: 60%;
     background-repeat: no-repeat;
     background-position: top left, top right, bottom left, bottom right;
     transform: rotate(10deg);
