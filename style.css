@@ -18,7 +18,7 @@ body {
 
 #heart-button {
     background-image: url('https://gitonat.github.io/Krissy/heart.png');
-    background-size: cover; /* Ensure the image covers the entire button */
+    background-size: contain; /* Ensures the whole image is visible */
     background-position: center;
     width: 200px;
     height: 200px;
