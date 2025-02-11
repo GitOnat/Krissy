@@ -18,7 +18,8 @@ body {
 
 #heart-button {
     background-image: url('https://gitonat.github.io/Krissy/heart.png');
-    background-size: cover;
+    background-size: cover; /* Ensure the image covers the entire button */
+    background-position: center;
     width: 200px;
     height: 200px;
     border: none;
@@ -28,6 +29,18 @@ body {
     align-items: center;
     transition: transform 0.3s ease;
     background-color: transparent;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 600px) {
+    #heart-button {
+        width: 150px;  /* Smaller size for mobile */
+        height: 150px;
+    }
+
+    #main-message {
+        font-size: 24px; /* Smaller text for mobile */
+    }
 }
 
 #heart-text {
@@ -63,7 +76,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('Krissy/fest.png'), url('Krissy/sorthvid.png'), url('Krissy/spejl.png'), url('Krissy/tivoli.png');
+    background-image: url('https://gitonat.github.io/Krissy/fest.png'), url('https://gitonat.github.io/Krissy/sorthvid.png'), url('https://gitonat.github.io/Krissy/spejl.png'), url('https://gitonat.github.io/Krissy/tivoli.png');
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: top left, top right, bottom left, bottom right;

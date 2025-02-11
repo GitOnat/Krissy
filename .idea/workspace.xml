@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6235a87b-31e1-411d-b05a-e3efe5c3338a" name="Changes" comment="krissy images">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1739231671618</updated>
       <workItem from="1739231672670" duration="1152000" />
-      <workItem from="1739261671126" duration="2276000" />
+      <workItem from="1739261671126" duration="2793000" />
     </task>
     <task id="LOCAL-00001" summary="krissy">
       <option name="closed" value="true" />
@@ -92,7 +93,31 @@
       <option name="project" value="LOCAL" />
       <updated>1739308483531</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="krissy images">
+      <option name="closed" value="true" />
+      <created>1739309030601</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739309030601</updated>
+    </task>
+    <task id="LOCAL-00005" summary="krissy images">
+      <option name="closed" value="true" />
+      <created>1739309077789</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739309077789</updated>
+    </task>
+    <task id="LOCAL-00006" summary="krissy images">
+      <option name="closed" value="true" />
+      <created>1739309572198</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739309572198</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
