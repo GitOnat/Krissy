@@ -115,6 +115,7 @@ body {
     transform: rotate(-10deg); /* Tilt to the left */
 }
 
+/* Text styling */
 #main-message {
     font-size: 32px;
     color: #ff4081;
