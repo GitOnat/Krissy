@@ -57,6 +57,7 @@ body {
     padding: 20px;
     position: relative;
     flex-direction: column;
+    z-index: 10; /* Ensures text is above images */
 }
 
 /* Fade-in animation */
@@ -68,14 +69,14 @@ body {
 /* Background image styles */
 .background-image {
     position: absolute;
-    width: 40%; /* Adjusted for visibility */
-    height: 300px; /* Fixed height */
-    background-size: cover; /* Make sure the image fills the space */
+    width: 40%;
+    height: 300px;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0; /* Start hidden */
+    opacity: 0;
     transition: opacity 1s ease-in-out, transform 0.5s ease-in-out;
-    z-index: 5; /* Ensure images are visible */
+    z-index: -1; /* Ensures images are behind text */
 }
 
 /* Individual image positions */
@@ -108,6 +109,11 @@ body {
     transform: rotate(-10deg);
 }
 
+/* Ensure images fade in after clicking */
+.show-images .background-image {
+    opacity: 0.6;
+}
+
 /* Text styling */
 #main-message {
     font-size: 32px;
@@ -123,4 +129,11 @@ body {
     line-height: 1.6;
     opacity: 0;
     transition: opacity 1s ease-in-out;
+}
+
+/* Ensure text fades in */
+.show-text #main-message,
+.show-text #sweet-message,
+.show-text #final-message {
+    opacity: 1;
 }
