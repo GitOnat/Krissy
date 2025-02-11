@@ -41,6 +41,31 @@ body {
     #main-message {
         font-size: 24px; /* Smaller text for mobile */
     }
+
+    /* Adjust the images for mobile */
+    .background-image {
+        width: 50%; /* Make images smaller on mobile */
+        height: auto;
+    }
+
+    #image-1, #image-3 { /* Adjust left and bottom images */
+        top: 5%;
+        left: 5%;
+        transform: rotate(-5deg); /* Slight tilt */
+    }
+
+    #image-2 { /* Adjust top-right image */
+        top: 5%;
+        right: 5%;
+        transform: rotate(5deg); /* Slight tilt */
+        width: 60%; /* Make this image slightly bigger on mobile */
+    }
+
+    #image-4 { /* Adjust bottom-right image */
+        bottom: 5%;
+        right: 5%;
+        transform: rotate(-5deg); /* Slight tilt */
+    }
 }
 
 #heart-text {
@@ -72,7 +97,7 @@ body {
 /* Image styling */
 .background-image {
     position: absolute;
-    width: 40%; /* Default size */
+    width: 40%; /* Default size for larger screens */
     height: auto;
     background-size: contain;
     background-repeat: no-repeat;
