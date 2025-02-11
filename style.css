@@ -97,14 +97,14 @@ body {
 
 #image-3 {
     background-image: url('https://gitonat.github.io/Krissy/spejl.png');
-    bottom: 50%;
+    bottom: 75%;
     left: 10%;
     transform: rotate(10deg);
 }
 
 #image-4 {
     background-image: url('https://gitonat.github.io/Krissy/tivoli.png');
-    bottom: 10%;
+    bottom: 75%;
     right: 10%;
     transform: rotate(-10deg);
 }
