@@ -97,7 +97,7 @@ body {
 
 #image-3 {
     background-image: url('https://gitonat.github.io/Krissy/spejl.png');
-    bottom: 20%;
+    bottom: 50%;
     left: 10%;
     transform: rotate(10deg);
 }
