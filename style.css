@@ -11,6 +11,7 @@ body {
     overflow: hidden;
 }
 
+/* Only show the heart button initially */
 #heart-container {
     position: relative;
     text-align: center;
@@ -18,8 +19,8 @@ body {
 
 #heart-button {
     background-image: url('https://gitonat.github.io/Krissy/heart.png');
-    background-size: contain; /* Ensures the whole image is visible */
-    background-position: center center; /* Centers the image both horizontally and vertically */
+    background-size: contain;
+    background-position: center center;
     width: 200px;
     height: 200px;
     border: none;
@@ -34,12 +35,11 @@ body {
 /* Responsive adjustments for mobile */
 @media (max-width: 600px) {
     #heart-button {
-        width: 150px;  /* Smaller size for mobile */
+        width: 150px;
         height: 150px;
     }
-
     #main-message {
-        font-size: 24px; /* Smaller text for mobile */
+        font-size: 24px;
     }
 }
 
@@ -50,69 +50,61 @@ body {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
+/* Hide the message and images initially */
 #message-container {
     display: none;
     text-align: center;
     padding: 20px;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    text-align: center;
 }
 
 /* Fade-in animation */
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
 }
 
-/* Make images fade in after the heart is clicked */
+/* Image styling */
 .background-image {
     position: absolute;
-    width: 40%; /* Default size for larger screens */
+    width: 40%;
     height: auto;
     background-size: contain;
     background-repeat: no-repeat;
     z-index: -1;
-    opacity: 0;  /* Start with the images hidden */
-    animation: fadeIn 1s forwards;  /* Apply the fade-in animation */
-    animation-delay: 0.5s;  /* Delay the animation for a smoother effect */
+    opacity: 0; /* Start hidden */
+    transition: opacity 1s ease-in-out, transform 0.5s ease-in-out;
 }
 
-/* Individual image styles */
+/* Individual image positions */
 #image-1 {
     background-image: url('https://gitonat.github.io/Krissy/fest.png');
     top: 10%;
     left: 10%;
-    transform: rotate(-10deg); /* Tilt to the left */
+    transform: rotate(-10deg);
 }
 
 #image-2 {
     background-image: url('https://gitonat.github.io/Krissy/sorthvid.png');
     top: 10%;
     right: 10%;
-    transform: rotate(10deg); /* Tilt to the right */
-    width: 45%; /* Make this image bigger */
+    transform: rotate(10deg);
+    width: 45%;
 }
 
 #image-3 {
     background-image: url('https://gitonat.github.io/Krissy/spejl.png');
     bottom: 10%;
     left: 10%;
-    transform: rotate(10deg); /* Tilt to the right */
+    transform: rotate(10deg);
 }
 
 #image-4 {
     background-image: url('https://gitonat.github.io/Krissy/tivoli.png');
     bottom: 10%;
     right: 10%;
-    transform: rotate(-10deg); /* Tilt to the left */
+    transform: rotate(-10deg);
 }
 
 /* Text styling */
@@ -120,10 +112,14 @@ body {
     font-size: 32px;
     color: #ff4081;
     margin-bottom: 20px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
 }
 
 #sweet-message, #final-message {
     font-size: 18px;
     color: #333;
     line-height: 1.6;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
 }
