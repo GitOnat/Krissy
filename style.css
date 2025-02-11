@@ -69,18 +69,53 @@ body {
 }
 
 /* Image styling */
-#message-container::before {
-    content: '';
+#message-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.background-image {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url('https://gitonat.github.io/Krissy/fest.png'), url('https://gitonat.github.io/Krissy/sorthvid.png'), url('https://gitonat.github.io/Krissy/spejl.png'), url('https://gitonat.github.io/Krissy/tivoli.png');
-    background-size: 35%; /* Make images bigger */
+    width: 40%; /* Default size */
+    height: auto;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: 10% 10%, 90% 10%, 10% 90%, 90% 90%; /* Bring images closer to the center */
-    transform: rotate(10deg);
     z-index: -1;
     opacity: 0.6;
 }
+
+/* Individual image styles */
+#image-1 {
+    background-image: url('https://gitonat.github.io/Krissy/fest.png');
+    top: 10%;
+    left: 10%;
+    transform: rotate(-10deg); /* Tilt to the left */
+}
+
+#image-2 {
+    background-image: url('https://gitonat.github.io/Krissy/sorthvid.png');
+    top: 10%;
+    right: 10%;
+    transform: rotate(10deg); /* Tilt to the right */
+    width: 45%; /* Make this image bigger */
+}
+
+#image-3 {
+    background-image: url('https://gitonat.github.io/Krissy/spejl.png');
+    bottom: 10%;
+    left: 10%;
+    transform: rotate(10deg); /* Tilt to the right */
+}
+
+#image-4 {
+    background-image: url('https://gitonat.github.io/Krissy/tivoli.png');
+    bottom: 10%;
+    right: 10%;
+    transform: rotate(-10deg); /* Tilt to the left */
+}
+
