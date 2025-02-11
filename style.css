@@ -85,3 +85,18 @@ body {
     opacity: 0.6;
 }
 
+
+#message-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://gitonat.github.io/Krissy/fest.png');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 10% 10%;
+    transform: rotate(-10deg);
+}
+
