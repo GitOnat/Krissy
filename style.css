@@ -105,9 +105,9 @@ body {
 #image-4 {
     background-image: url('https://gitonat.github.io/Krissy/tivoli.png');
     bottom: 75%;
-    right: 10%;
+    right: 5%;
     transform: rotate(-10deg);
-    width: 100%; /* Reduce width */
+    width: 50%; /* Reduce width */
     height: 100%; /* Maintain aspect ratio */
     background-size: contain; /* Ensure the whole image fits */
 }
