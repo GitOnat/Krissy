@@ -77,14 +77,28 @@ body {
     right: 0;
     bottom: 0;
     background-image: url('https://gitonat.github.io/Krissy/fest.png'), url('https://gitonat.github.io/Krissy/sorthvid.png'), url('https://gitonat.github.io/Krissy/spejl.png'), url('https://gitonat.github.io/Krissy/tivoli.png');
-    background-size: 35%; /* Make images bigger */
+    background-size: 40%; /* Make images bigger */
     background-repeat: no-repeat;
     background-position: 10% 10%, 90% 10%, 10% 90%, 90% 90%; /* Bring images closer to the center */
-    transform: rotate(10deg);
+    transform: rotate(10deg); /* Default tilt */
     z-index: -1;
     opacity: 0.6;
 }
 
+/* Adjust individual image rotations */
+#message-container::before {
+    background-image:
+            url('https://gitonat.github.io/Krissy/fest.png'),
+            url('https://gitonat.github.io/Krissy/sorthvid.png'),
+            url('https://gitonat.github.io/Krissy/spejl.png'),
+            url('https://gitonat.github.io/Krissy/tivoli.png');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 10% 10%, 90% 10%, 10% 90%, 90% 90%;
+    transform: rotate(10deg); /* Default tilt */
+    z-index: -1;
+    opacity: 0.6;
+}
 
 #message-container::after {
     content: '';
