@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6235a87b-31e1-411d-b05a-e3efe5c3338a" name="Changes" comment="krissy images">
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="6235a87b-31e1-411d-b05a-e3efe5c3338a" name="Changes" comment="krissy images" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1739231671618</updated>
       <workItem from="1739231672670" duration="1152000" />
-      <workItem from="1739261671126" duration="6145000" />
+      <workItem from="1739261671126" duration="11164000" />
     </task>
     <task id="LOCAL-00001" summary="krissy">
       <option name="closed" value="true" />
@@ -300,7 +298,87 @@
       <option name="project" value="LOCAL" />
       <updated>1739315191301</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="krissy images">
+      <option name="closed" value="true" />
+      <created>1739315767930</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1739315767930</updated>
+    </task>
+    <task id="LOCAL-00031" summary="krissy images">
+      <option name="closed" value="true" />
+      <created>1739317363015</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1739317363015</updated>
+    </task>
+    <task id="LOCAL-00032" summary="krissy images">
+      <option name="closed" value="true" />
+      <created>1739317922828</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1739317922828</updated>
+    </task>
+    <task id="LOCAL-00033" summary="krissy images">
+      <option name="closed" value="true" />
+      <created>1739318107885</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1739318107885</updated>
+    </task>
+    <task id="LOCAL-00034" summary="krissy images">
+      <option name="closed" value="true" />
+      <created>1739318406172</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1739318406172</updated>
+    </task>
+    <task id="LOCAL-00035" summary="krissy images">
+      <option name="closed" value="true" />
+      <created>1739318824654</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1739318824654</updated>
+    </task>
+    <task id="LOCAL-00036" summary="krissy images">
+      <option name="closed" value="true" />
+      <created>1739320273953</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1739320273953</updated>
+    </task>
+    <task id="LOCAL-00037" summary="krissy images">
+      <option name="closed" value="true" />
+      <created>1739320553712</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1739320553712</updated>
+    </task>
+    <task id="LOCAL-00038" summary="krissy images">
+      <option name="closed" value="true" />
+      <created>1739320943237</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1739320943237</updated>
+    </task>
+    <task id="LOCAL-00039" summary="krissy images">
+      <option name="closed" value="true" />
+      <created>1739321215735</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1739321215735</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
