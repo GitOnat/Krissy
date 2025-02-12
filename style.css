@@ -119,8 +119,8 @@ body {
     bottom: 95%;
     left: 3%;
     transform: rotate(10deg);
-    width: 40%;
-    height: 55%;
+    width: 45%;
+    height: 65%;
     background-size: cover; /* Ensures the image fully covers the container */
     background-position: top; /* Position the image so the top stays aligned and crops the bottom */
 }
