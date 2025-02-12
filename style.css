@@ -19,8 +19,8 @@ body {
 
 #heart-button {
     background-image: url('https://gitonat.github.io/Krissy/heart.png');
-    background-size: contain;
-    background-position: center center;
+    background-size: cover; /* Ensure the heart image covers the button properly */
+    background-position: center center; /* Ensure the heart is centered */
     width: 200px;
     height: 200px;
     border: none;
@@ -30,7 +30,9 @@ body {
     align-items: center;
     transition: transform 0.3s ease;
     background-color: transparent;
+    overflow: hidden; /* Prevent any overflow or clipping */
 }
+
 
 /* Responsive adjustments for mobile */
 @media (max-width: 600px) {
@@ -102,6 +104,8 @@ body {
     bottom: 80%;
     left: 3%;
     transform: rotate(10deg);
+    width: 30%;
+    height: 50%;
 }
 
 #image-4 {
