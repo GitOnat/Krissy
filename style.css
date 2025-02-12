@@ -18,20 +18,42 @@ body {
 }
 
 #heart-button {
-    background-image: url('https://gitonat.github.io/Krissy/heart.png');
-    background-size: cover; /* Ensure the heart image covers the button properly */
-    background-position: center center; /* Ensure the heart is centered */
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 210px;
     border: none;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: transform 0.3s ease;
     background-color: transparent;
-    overflow: hidden; /* Prevent any overflow or clipping */
+    position: relative;
+    overflow: hidden; /* Prevents overflow */
+    padding: 0; /* Ensures there's no extra space around the content */
 }
+
+#heart-img {
+    width: 100%; /* Ensures the image scales to fill the button */
+    height: 100%; /* Ensures the image fills the button without distortion */
+    object-fit: contain; /* Ensures the image fits within the container without clipping */
+    position: absolute; /* Ensures the image is fixed and doesn't move */
+    top: 0;
+    left: 0;
+}
+
+#heart-text {
+    position: absolute; /* Ensures the text is positioned on top of the image */
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1; /* Ensures the text is above the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
 
 
 /* Responsive adjustments for mobile */
@@ -43,13 +65,6 @@ body {
     #main-message {
         font-size: 24px;
     }
-}
-
-#heart-text {
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 /* Hide the message and images initially */
@@ -101,12 +116,15 @@ body {
 
 #image-3 {
     background-image: url('https://gitonat.github.io/Krissy/spejl.png');
-    bottom: 80%;
+    bottom: 95%;
     left: 3%;
     transform: rotate(10deg);
-    width: 30%;
-    height: 50%;
+    width: 40%;
+    height: 55%;
+    background-size: cover; /* Ensures the image fully covers the container */
+    background-position: top; /* Position the image so the top stays aligned and crops the bottom */
 }
+
 
 #image-4 {
     background-image: url('https://gitonat.github.io/Krissy/tivoli.png');
@@ -126,14 +144,17 @@ body {
 
 /* Text styling */
 #main-message {
-    font-size: 20px;  /* Større fontstørrelse */
-    font-family: 'Georgia', serif;  /* En mere romantisk font */
-    color: #ff4081;  /* Lys pink farve for kærlighed */
+    font-size: 20px;
+    font-family: 'Georgia', serif;
+    color: #ff4081;
     font-weight: bold;
-    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6), 0 0 25px rgba(255, 0, 255, 0.5); /* Stærk skygge for dybde og fremtræden */
-    letter-spacing: 2px;  /* Øget afstand mellem bogstaver for mere elegance */
-    text-transform: uppercase;  /* Gør det lidt mere iøjnefaldende */
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6), 0 0 25px rgba(255, 0, 255, 0.5);
+    letter-spacing: 2px;
+    text-transform: uppercase;
     margin-bottom: 20px;
+    opacity: 0;  /* Start hidden */
+    transition: opacity 1s ease-in-out;  /* Ensures it fades in */
+    z-index: 10;  /* Ensure the text is above other elements */
 }
 
 #sweet-message, #final-message {
