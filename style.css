@@ -99,7 +99,7 @@ body {
 /* Individual image positions */
 #image-1 {
     background-image: url('https://gitonat.github.io/Krissy/fest.png');
-    top: 105%;
+    top: 95%;
     left: 2%;
     height: 60%;
     transform: rotate(-10deg);
@@ -107,7 +107,7 @@ body {
 
 #image-2 {
     background-image: url('https://gitonat.github.io/Krissy/sorthvid.png');
-    top: 110%;
+    top: 100%;
     right: 2%;
     transform: rotate(10deg);
     width: 60%;
