@@ -150,8 +150,8 @@ body {
     font-weight: bold;
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6), 0 0 25px rgba(255, 0, 255, 0.5);
     letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-bottom: 20px;
+    text-transform: none;
+    margin-bottom: 10px;
     opacity: 0;  /* Start hidden */
     transition: opacity 1s ease-in-out;  /* Ensures it fades in */
     z-index: 10;  /* Ensure the text is above other elements */
@@ -160,7 +160,7 @@ body {
 #sweet-message, #final-message {
     font-size: 14px;
     color: #333;
-    line-height: 1.6;
+    line-height: 1.5;
     opacity: 0;
     transition: opacity 1s ease-in-out;
 }
