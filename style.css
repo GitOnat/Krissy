@@ -101,7 +101,8 @@ body {
     color: #333;
     line-height: 1.5;
     opacity: 0;
-    transition: opacity 3s ease-in-out; /* Slower fade-in */
+    transition: opacity 5s ease-in-out; /* Slower fade-in */
+    transition-delay: 9s;
 }
 
 /* Show Messages */
@@ -120,17 +121,18 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     opacity: 0;
-    transition: opacity 2s ease-in-out, transform 0.5s ease-in-out; /* Slower fade-in */
+    transition: opacity 6s ease-in-out, transform 0.5s ease-in-out; /* Slower fade-in */
     z-index: -1;
 }
 
-/* Individual Image Positions */
+/* Individual Image Positions with Delays */
 #image-1 {
     background-image: url('https://gitonat.github.io/Krissy/fest.png');
     top: 95%;
     left: 2%;
     height: 60%;
     transform: rotate(-10deg);
+    transition-delay: 1s; /* No delay */
 }
 
 #image-2 {
@@ -140,6 +142,7 @@ body {
     transform: rotate(10deg);
     width: 60%;
     height: 50%;
+    transition-delay: 2s; /* Delayed fade-in */
 }
 
 #image-3 {
@@ -151,6 +154,7 @@ body {
     height: 65%;
     background-size: cover;
     background-position: top;
+    transition-delay: 3s; /* Delayed fade-in */
 }
 
 #image-4 {
@@ -161,6 +165,7 @@ body {
     width: 60%;
     height: 100%;
     background-size: contain;
+    transition-delay: 4s; /* Delayed fade-in */
 }
 
 /* Fade-in Effect */
