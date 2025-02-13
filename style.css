@@ -31,7 +31,7 @@ body {
     overflow: hidden;
     padding: 0;
     opacity: 0;
-    animation: fadeIn 3s ease-in-out forwards, pulsate 2s infinite ease-in-out; /* Slower fade-in */
+    animation: fadeIn 2s ease-in-out forwards, pulsate 2s infinite ease-in-out; /* Slower fade-in */
 }
 
 /* Heart Image */
