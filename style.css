@@ -91,7 +91,7 @@ body {
     text-transform: none;
     margin-bottom: 10px;
     opacity: 0;
-    animation: textBounce 1.2s ease-out forwards;
+    animation: textBounce 5s ease-out forwards;
     z-index: 10;
 }
 
@@ -101,7 +101,7 @@ body {
     color: #333;
     line-height: 1.5;
     opacity: 0;
-    transition: opacity 2s ease-in-out; /* Slower fade-in */
+    transition: opacity 3s ease-in-out; /* Slower fade-in */
 }
 
 /* Show Messages */
@@ -163,11 +163,6 @@ body {
     background-size: contain;
 }
 
-/* Floating Effect on Hover */
-.background-image:hover {
-    animation: float 2s infinite ease-in-out;
-}
-
 /* Fade-in Effect */
 @keyframes fadeIn {
     from { opacity: 0; transform: scale(0.9); }
@@ -193,11 +188,4 @@ body {
     0% { transform: translateY(0px); }
     50% { transform: translateY(-5px); }
     100% { transform: translateY(0px); }
-}
-
-/* Dreamy Background Color Shift */
-@keyframes bgShift {
-    0% { background-color: #fef7f7; }
-    50% { background-color: #ffe0e0; }
-    100% { background-color: #fef7f7; }
 }
