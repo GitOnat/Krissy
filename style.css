@@ -97,7 +97,7 @@ body {
 
 /* Additional Text Fade-in */
 #sweet-message, #final-message {
-    font-size: 14px;
+    font-size: 13px;
     color: #333;
     line-height: 1.5;
     opacity: 0;
