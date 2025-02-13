@@ -195,10 +195,3 @@ body {
     50% { transform: translateY(-5px); }
     100% { transform: translateY(0px); }
 }
-
-/* Dreamy Background Color Shift */
-@keyframes bgShift {
-    0% { background-color: #fef7f7; }
-    50% { background-color: #ffe0e0; }
-    100% { background-color: #fef7f7; }
-}
