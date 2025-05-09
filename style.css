@@ -127,7 +127,7 @@ body {
 
 /* Individual Image Positions with Delays */
 #image-1 {
-    background-image: url('images/fest.png');
+    background-image: url('https://gitonat.github.io/Krissy/fest.png');
     top: 95%;
     left: 2%;
     height: 60%;
@@ -146,7 +146,7 @@ body {
 }
 
 #image-3 {
-    background-image: url('images/spejl.png');
+    background-image: url('https://gitonat.github.io/Krissy/spejl.png');
     bottom: 95%;
     left: 3%;
     transform: rotate(10deg);
@@ -158,7 +158,7 @@ body {
 }
 
 #image-4 {
-    background-image: url('images/tivoli.png');
+    background-image: url('https://gitonat.github.io/Krissy/tivoli.png');
     bottom: 75%;
     right: 3%;
     transform: rotate(-10deg);
